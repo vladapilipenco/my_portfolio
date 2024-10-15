@@ -91,7 +91,7 @@ h1 {
   font-size: 1.6rem;
   font-family: "Trebuchet MS", sans-serif;
   color: rgb(255 255 255);
-  box-shadow: 0px 0px 20px rgb(172, 110, 110);
+  box-shadow: 0px 0px 20px rgb(224, 143, 143);
   transition: 0.3s;
 }
 #unicodeSymbol {
@@ -101,6 +101,52 @@ h1 {
   background-color: rgb(244, 110, 110);
   box-shadow: 0px 0px 25px rgb(46, 24, 24);
 }
+.themeSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 40px;
+  background-color: rgb(12, 12, 12);
+}
+.themeSection input {
+  width: 22px;
+  height: 22px;
+}
+#red {
+  accent-color: rgb(250 135 135);
+}
+#blue {
+  accent-color: rgb(143, 202, 237);
+}
+#violet {
+  accent-color: rgb(187, 133, 232);
+}
+main:has(#blue:checked) .contactButton {
+  background-color: rgb(143, 202, 237);
+  box-shadow: 0px 0px 20px rgb(107, 203, 255);
+}
+main:has(#blue:checked) .contactButton:hover {
+  background-color: rgb(121, 203, 250);
+  box-shadow: 0px 0px 20px rgb(2, 35, 53);
+  transition: 0.3s;
+}
+main:has(#blue:checked) .contactMeForm {
+  background-color: rgb(222, 241, 252);
+}
+main:has(#violet:checked) .contactButton {
+  background-color: rgb(215, 173, 250);
+  box-shadow: 0px 0px 20px rgb(204, 135, 246);
+}
+main:has(#violet:checked) .contactButton:hover {
+  background-color: rgb(207, 147, 252);
+  box-shadow: 0px 0px 20px rgb(28, 20, 62);
+  transition: 0.3s;
+}
+main:has(#violet:checked) .contactMeForm {
+  background-color: rgb(241, 227, 252);
+}
+
 .skillsSection {
   max-width: 900px;
   margin: 100px auto;
