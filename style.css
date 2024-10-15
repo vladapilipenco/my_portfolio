@@ -131,6 +131,12 @@ main:has(#blue:checked) .contactButton:hover {
   box-shadow: 0px 0px 20px rgb(2, 35, 53);
   transition: 0.3s;
 }
+body:has(#blue:checked) .headerContainer,
+body:has(#blue:checked) .homeSection,
+body:has(#blue:checked) .themeSection,
+body:has(#blue:checked) .footerContainer {
+  background-color: rgb(29, 35, 39);
+}
 main:has(#blue:checked) .contactMeForm {
   background-color: rgb(222, 241, 252);
 }
@@ -142,6 +148,12 @@ main:has(#violet:checked) .contactButton:hover {
   background-color: rgb(207, 147, 252);
   box-shadow: 0px 0px 20px rgb(28, 20, 62);
   transition: 0.3s;
+}
+body:has(#violet:checked) .headerContainer,
+body:has(#violet:checked) .homeSection,
+body:has(#violet:checked) .themeSection,
+body:has(#violet:checked) .footerContainer {
+  background-color: rgb(31, 25, 33);
 }
 main:has(#violet:checked) .contactMeForm {
   background-color: rgb(241, 227, 252);
