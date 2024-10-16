@@ -179,7 +179,7 @@ main:has(#violet:checked) .contactMeForm {
 
 .skillsSection {
   max-width: 900px;
-  margin: 100px auto;
+  margin: 250px auto 100px;
 }
 .skillsSection h2 {
   text-align: center;
@@ -218,7 +218,7 @@ main:has(#violet:checked) .contactMeForm {
 }
 .projectsSection {
   max-width: 1100px;
-  margin: 200px auto;
+  margin: 300px auto;
 }
 .projectsSection h2 {
   text-align: center;
