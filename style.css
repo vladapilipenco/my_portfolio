@@ -124,18 +124,18 @@ h1 {
 }
 main:has(#blue:checked) .contactButton {
   background-color: rgb(143, 202, 237);
-  box-shadow: 0px 0px 20px rgb(107, 203, 255);
+  box-shadow: 0px 0px 20px rgb(133, 201, 237);
 }
 main:has(#blue:checked) .contactButton:hover {
   background-color: rgb(121, 203, 250);
-  box-shadow: 0px 0px 20px rgb(2, 35, 53);
+  box-shadow: 0px 0px 20px rgb(33, 47, 54);
   transition: 0.3s;
 }
 body:has(#blue:checked) .headerContainer,
 body:has(#blue:checked) .homeSection,
 body:has(#blue:checked) .themeSection,
 body:has(#blue:checked) .footerContainer {
-  background-color: rgb(29, 35, 39);
+  background-color: rgb(44, 48, 50);
 }
 main:has(#blue:checked) .contactMeForm {
   background-color: rgb(222, 241, 252);
@@ -146,14 +146,20 @@ main:has(#violet:checked) .contactButton {
 }
 main:has(#violet:checked) .contactButton:hover {
   background-color: rgb(207, 147, 252);
-  box-shadow: 0px 0px 20px rgb(28, 20, 62);
+  box-shadow: 0px 0px 20px rgb(74, 63, 78);
   transition: 0.3s;
 }
 body:has(#violet:checked) .headerContainer,
 body:has(#violet:checked) .homeSection,
 body:has(#violet:checked) .themeSection,
 body:has(#violet:checked) .footerContainer {
-  background-color: rgb(31, 25, 33);
+  background-color: rgb(77, 70, 79);
+}
+body:has(#violet:checked) .leftSideContainer p {
+  color: rgb(255, 255, 255);
+}
+body:has(#violet:checked) h1 {
+  color: rgb(255, 255, 255);
 }
 main:has(#violet:checked) .contactMeForm {
   background-color: rgb(241, 227, 252);
