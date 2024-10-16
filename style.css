@@ -131,6 +131,12 @@ main:has(#blue:checked) .contactButton:hover {
   box-shadow: 0px 0px 20px rgb(33, 47, 54);
   transition: 0.3s;
 }
+body:has(#blue:checked) .navigationList a {
+  color: rgb(143, 202, 237);
+}
+body:has(#blue:checked) .navigationList a:hover {
+  color: #e6f6ff;
+}
 body:has(#blue:checked) .headerContainer,
 body:has(#blue:checked) .homeSection,
 body:has(#blue:checked) .themeSection,
@@ -148,6 +154,12 @@ main:has(#violet:checked) .contactButton:hover {
   background-color: rgb(207, 147, 252);
   box-shadow: 0px 0px 20px rgb(74, 63, 78);
   transition: 0.3s;
+}
+body:has(#violet:checked) .navigationList a {
+  color: rgb(215, 173, 250);
+}
+body:has(#violet:checked) .navigationList a:hover {
+  color: rgb(240, 222, 255);
 }
 body:has(#violet:checked) .headerContainer,
 body:has(#violet:checked) .homeSection,
